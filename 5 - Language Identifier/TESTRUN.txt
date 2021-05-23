@@ -1,0 +1,217 @@
+  ==============================================================
+  TESTDATA 1
+  ==============================================================
+
+        Nytt objekt av klassen 'Text' skapat
+
+        Skriv in filnamn: doyle
+
+  ==============================================================
+
+        Följande skillnadskvoter kan konstateras
+
+        Engelska: 1.75771
+        Franska: 96.1956
+        Svenska: 73.3371
+        Tyska: 116.072
+
+        Det är troligast att texten är skriven på Engelska.
+
+        Totalt har 12885 tecken lästs in.
+
+        Bokstavsfördelning:
+
+        A ****************
+        B ***
+        C *******
+        D ********
+        E ************************
+        F ****
+        G ***
+        H ************
+        I ***************
+        J
+        K **
+        L ********
+        M *****
+        N *************
+        O ***************
+        P ****
+        Q
+        R ***********
+        S *************
+        T ******************
+        U ******
+        V **
+        W ****
+        X
+        Y *****
+        Z
+
+Process returned 0 (0x0)   execution time : 3.417 s
+Press any key to continue.
+
+
+  ==============================================================
+  TESTDATA 2
+  ==============================================================
+
+
+        Nytt objekt av klassen 'Text' skapat
+
+        Skriv in filnamn: goethe.txt
+
+  ==============================================================
+
+        Följande skillnadskvoter kan konstateras
+
+        Engelska: 107.856
+        Franska: 85.205
+        Svenska: 160.318
+        Tyska: 1.04313
+
+        Det är troligast att texten är skriven på Tyska.
+
+        Totalt har 14027 tecken lästs in.
+
+        Bokstavsfördelning:
+
+        A ***********
+        B ***
+        C *******
+        D *********
+        E *********************************
+        F ***
+        G *******
+        H ***********
+        I ******************
+        J
+        K **
+        L *******
+        M ******
+        N **********************
+        O ****
+        P *
+        Q
+        R ************
+        S **************
+        T ***********
+        U ********
+        V **
+        W ****
+        X
+        Y *
+        Z ***
+
+Process returned 0 (0x0)   execution time : 5.815 s
+Press any key to continue.
+
+
+  ==============================================================
+  TESTDATA 3
+  ==============================================================
+
+
+        Nytt objekt av klassen 'Text' skapat
+
+        Skriv in filnamn: lagerlof
+
+  ==============================================================
+
+        Följande skillnadskvoter kan konstateras
+
+        Engelska: 86.6804
+        Franska: 145.722
+        Svenska: 8.88258
+        Tyska: 170.223
+
+        Det är troligast att texten är skriven på Svenska.
+
+        Totalt har 12221 tecken lästs in.
+
+        Bokstavsfördelning:
+
+        A ***********************
+        B **
+        C ***
+        D ************
+        E *******************
+        F ****
+        G ********
+        H *******
+        I ********
+        J ***
+        K *******
+        L **********
+        M *******
+        N ******************
+        O *********
+        P ***
+        Q
+        R ***************
+        S **************
+        T ******************
+        U ***
+        V ******
+        W
+        X
+        Y *
+        Z
+
+Process returned 0 (0x0)   execution time : 5.603 s
+Press any key to continue.
+
+
+  ==============================================================
+  TESTDATA 4
+  ==============================================================
+
+
+        Nytt objekt av klassen 'Text' skapat
+
+        Skriv in filnamn: verne.txt
+
+  ==============================================================
+
+        Följande skillnadskvoter kan konstateras
+
+        Engelska: 112.425
+        Franska: 0.885142
+        Svenska: 149.256
+        Tyska: 90.491
+
+        Det är troligast att texten är skriven på Franska.
+
+        Totalt har 11417 tecken lästs in.
+
+        Bokstavsfördelning:
+
+        A ****************
+        B ***
+        C *******
+        D ********
+        E ***********************************
+        F **
+        G **
+        H *
+        I **************
+        J *
+        K
+        L ***********
+        M ******
+        N ***************
+        O **********
+        P ******
+        Q **
+        R **************
+        S *****************
+        T **************
+        U ************
+        V ***
+        W
+        X *
+        Y *
+        Z
+
+Process returned 0 (0x0)   execution time : 5.468 s
+Press any key to continue.
