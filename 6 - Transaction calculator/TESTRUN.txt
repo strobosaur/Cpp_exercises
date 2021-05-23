@@ -1,0 +1,196 @@
+// ==================================================
+// === TESTDATA 1 ===================================
+// ==================================================
+
+
+
+        ================================================
+
+        10 st transaktioner har lästs in
+
+        ================================================
+
+        * MENY *
+
+        Totalt finns 10 transaktioner i listan.
+
+        0. Avsluta - Transaktioner sparas till 'kvitto_default.txt'
+        1. Läs in transaktion från tangentbordet
+        2. Skriv ut information om alla transaktioner
+        3. Beräkna totala kostnaden
+        4. Hur mycket är en viss person skyldig?
+        5. Hur mycket ligger en viss person ute med?
+        6. Lista alla personer mm och FIXA!!!
+
+        Menyval (0 - 6): 2
+
+        ================================================
+
+050615  transp  Eva     6000    5  Bosse   Kristin Paul    Torsten Stina
+050721  mat     Eva     300     2  Bosse   Kristin
+050721  mat     Paul    400     2  Torsten Stina
+050721  transp  Bosse   5000    3  Eva     Kristin Paul
+050721  transp  Stina   5000    1  Torsten
+050722  boende  Kristin 200     1  Eva
+050722  mat     Eva     300     2  Kristin Bosse
+050723  mat     Torsten 300     2  Paul    Stina
+050724  mat     Paul    200     1  Stina
+050725  transp  Eva     600     3  Bosse   Kristin Paul
+
+        ================================================
+
+        * MENY *
+
+        Totalt finns 10 transaktioner i listan.
+
+        0. Avsluta - Transaktioner sparas till 'kvitto_default.txt'
+        1. Läs in transaktion från tangentbordet
+        2. Skriv ut information om alla transaktioner
+        3. Beräkna totala kostnaden
+        4. Hur mycket är en viss person skyldig?
+        5. Hur mycket ligger en viss person ute med?
+        6. Lista alla personer mm och FIXA!!!
+
+        Menyval (0 - 6): 6
+
+        ================================================
+
+        Eva     ligger ute med:  5850.00 kr
+                och är skyldig:  1350.00 kr
+                      Skall ta:  4500.00 kr ifrån potten.
+
+        Rykte: Generös+  | Tar sms-lån i sina barns namn
+
+
+
+        Bosse   ligger ute med:  3750.00 kr
+                och är skyldig:  1350.00 kr
+                      Skall ta:  2400.00 kr ifrån potten.
+
+        Rykte: Generös   | Lever för dagen
+
+
+
+        Kristin ligger ute med:   100.00 kr
+                och är skyldig:  2600.00 kr
+                   Skall lägga:  2500.00 kr till potten.
+
+        Rykte:    Snål++ | Legendarisk snyltare
+
+
+
+        Paul    ligger ute med:   366.67 kr
+                och är skyldig:  2500.00 kr
+                   Skall lägga:  2133.33 kr till potten.
+
+        Rykte:    Snål+  | Går till jobbet för att spara dasspapper
+
+
+
+        Torsten ligger ute med:   200.00 kr
+                och är skyldig:  3633.33 kr
+                   Skall lägga:  3433.33 kr till potten.
+
+        Rykte:    Snål++ | Legendarisk snyltare
+
+
+
+        Stina   ligger ute med:  2500.00 kr
+                och är skyldig:  1333.33 kr
+                      Skall ta:  1166.67 kr ifrån potten.
+
+        Rykte: Generös   | Lever för dagen
+
+
+
+        ================================================
+
+        * MENY *
+
+        Totalt finns 10 transaktioner i listan.
+
+        0. Avsluta - Transaktioner sparas till 'kvitto_default.txt'
+        1. Läs in transaktion från tangentbordet
+        2. Skriv ut information om alla transaktioner
+        3. Beräkna totala kostnaden
+        4. Hur mycket är en viss person skyldig?
+        5. Hur mycket ligger en viss person ute med?
+        6. Lista alla personer mm och FIXA!!!
+
+        Menyval (0 - 6): 0
+
+        ================================================
+
+        10 st transaktioner sparade till kvitto_default.txt
+
+
+Process returned 0 (0x0)   execution time : 10.611 s
+Press any key to continue.
+
+
+// ==================================================
+// === TESTDATA 2 ===================================
+// ==================================================
+
+
+        ================================================
+
+        4 st transaktioner har lästs in
+
+        ================================================
+
+        * MENY *
+
+        Totalt finns 4 transaktioner i listan.
+
+        0. Avsluta - Transaktioner sparas till 'kvitto_default.txt'
+        1. Läs in transaktion från tangentbordet
+        2. Skriv ut information om alla transaktioner
+        3. Beräkna totala kostnaden
+        4. Hur mycket är en viss person skyldig?
+        5. Hur mycket ligger en viss person ute med?
+        6. Lista alla personer mm och FIXA!!!
+
+        Menyval (0 - 6): 6
+
+        ================================================
+
+        Eva     ligger ute med:   600.00 kr
+                och är skyldig:   100.00 kr
+                      Skall ta:   500.00 kr ifrån potten.
+
+        Rykte: Generös+  | Tar sms-lån i sina barns namn
+
+
+
+        Bosse   ligger ute med:   100.00 kr
+                och är skyldig:   600.00 kr
+                   Skall lägga:   500.00 kr till potten.
+
+        Rykte:    Snål+  | Går till jobbet för att spara dasspapper
+
+
+
+        ================================================
+
+        * MENY *
+
+        Totalt finns 4 transaktioner i listan.
+
+        0. Avsluta - Transaktioner sparas till 'kvitto_default.txt'
+        1. Läs in transaktion från tangentbordet
+        2. Skriv ut information om alla transaktioner
+        3. Beräkna totala kostnaden
+        4. Hur mycket är en viss person skyldig?
+        5. Hur mycket ligger en viss person ute med?
+        6. Lista alla personer mm och FIXA!!!
+
+        Menyval (0 - 6): 0
+
+        ================================================
+
+        4 st transaktioner sparade till kvitto_default.txt
+
+
+Process returned 0 (0x0)   execution time : 21.791 s
+Press any key to continue.
