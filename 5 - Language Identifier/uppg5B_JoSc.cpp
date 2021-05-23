@@ -1,5 +1,3 @@
-
-
 #include <string>
 #include <cctype>
 #include <iostream>
@@ -7,7 +5,7 @@
 #include <cmath>
 using namespace std;
 
-    // TÄNKTE PRÖVA EN ENUM
+    // TÃ„NKTE PRÃ–VA EN ENUM
     enum class Language
     {
         english,
@@ -51,7 +49,7 @@ class Text
         double charFreqRel[ANTAL_BOKSTAVER] = {}, similarities[ANTAL_SPRAK] = {};
         string fullText;
 
-        // EGET BEKVÄMLIGHETSTILLÄGG, OFFSETVARIABEL TILL ARRAY
+        // EGET BEKVÃ„MLIGHETSTILLÃ„GG, OFFSETVARIABEL TILL ARRAY
         const int charOffset = static_cast<int>('a');
 
     public:
@@ -59,28 +57,28 @@ class Text
         // KONSTRUKTOR
         Text();
 
-        // ÄNDRA KLASSENS TEXTVARIABEL
+        // Ã„NDRA KLASSENS TEXTVARIABEL
         void setText(string nyText);
 
-        // BERÄKNA ABSOLUT HISTOGRAM
+        // BERÃ„KNA ABSOLUT HISTOGRAM
         bool beraknaHistogramAbs();
 
         // SKRIV UT ABSOLUT HISTOGRAM
         void skrivHistogramAbs();
 
-        // BERÄKNA RELATIVT HISTOGRAM
+        // BERÃ„KNA RELATIVT HISTOGRAM
         void absTillRel();
 
         // PLOTTA RELATIVT HISTOGRAM
         void plottaHistogramRel();
 
-        // BERÄKNA ABSOLUT OCH RELATIVT HISTOGRAM
+        // BERÃ„KNA ABSOLUT OCH RELATIVT HISTOGRAM
         void beraknaHistogram();
 
         // TOLKA RELATIVT HISTOGRAM
         string tolka();
 
-        // KOM ÅT VÄRDEN I ARRAY LIKHETER
+        // KOM Ã…T VÃ„RDEN I ARRAY LIKHETER
         double getSum(int index);
 };
 
@@ -113,16 +111,16 @@ int main()
     // SKAPA TEXTOBJEKT
     Text minText;
 
-    // LÄS IN FILNAMNET
+    // LÃ„S IN FILNAMNET
     filnamn = namn_pa_fil();
 
-    // LÄS IN FILEN
+    // LÃ„S IN FILEN
     inputText = inlasning( filnamn );
 
-    // SKICKA INLÄST TEXT TILL OBJEKTET
+    // SKICKA INLÃ„ST TEXT TILL OBJEKTET
     minText.setText( inputText );
 
-    // BERÄKNA HISTOGRAM
+    // BERÃ„KNA HISTOGRAM
     minText.beraknaHistogram();
 
     // TOLKA HISTOGRAM
@@ -161,7 +159,7 @@ Text::Text()
         charFreqRel[i] = 0;
     }
 
-    // SÄG HEJ
+    // SÃ„G HEJ
     cout << endl;
     cout << '\t' << "Nytt objekt av klassen 'Text' skapat" << endl << endl;
 }
@@ -174,7 +172,7 @@ void Text::setText( string nyText )
 }
 
 // =======================================================
-// BERÄKNA HISTOGRAM
+// BERÃ„KNA HISTOGRAM
 bool Text::beraknaHistogramAbs()
 {
     // DEKLARERA VARIABLER
@@ -182,13 +180,13 @@ bool Text::beraknaHistogramAbs()
     char currentChar;
 
     // LOOPA IGENOM DEN INMATADE TEXTEN
-    // LAGRA ANTALET BOKSTÄVER I HISTOGRAM ARRAY
+    // LAGRA ANTALET BOKSTÃ„VER I HISTOGRAM ARRAY
     for(int i = 0; i < fullText.length(); i++)
     {
         // AKTUELL BOKSTAV -> LOWER CASE
         currentChar = tolower( fullText.at(i) );
 
-        // BERÄKNA INDEX I HISTOGRAM ARRAY
+        // BERÃ„KNA INDEX I HISTOGRAM ARRAY
         charIndex = ( static_cast<int>(currentChar) ) - charOffset;
 
         // OM TECKNET FINNS MELLAN A-Z
@@ -200,7 +198,7 @@ bool Text::beraknaHistogramAbs()
         }
     }
 
-    // FICK VI NÅGON TEXT?
+    // FICK VI NÃ…GON TEXT?
     if (charCount > 0) { return 1; }
     else { return 0; }
 }
@@ -219,9 +217,9 @@ void Text::skrivHistogramAbs()
         cout << '\t' << letter << ": " << charFreqAbs[i] << endl;
     }
 
-    // SKRIV UT TOTALT ANTAL BOKSTÄVER
+    // SKRIV UT TOTALT ANTAL BOKSTÃ„VER
     cout << endl;
-    cout << '\t' << "Totalt antal bokstäver: " << charCount << endl;
+    cout << '\t' << "Totalt antal bokstÃ¤ver: " << charCount << endl;
     cout << endl;
 }
 
@@ -229,7 +227,7 @@ void Text::skrivHistogramAbs()
 // ABSOLUT TILL RELATIVT
 void Text::absTillRel()
 {
-    // LOOPA GENOM ARRAY + BERÄKNA RELATIV FREKVENS
+    // LOOPA GENOM ARRAY + BERÃ„KNA RELATIV FREKVENS
     for ( int i = 0; i < ANTAL_BOKSTAVER; i++ )
     {
         // FREKVENSEN SPARAS SOM PROCENT
@@ -246,15 +244,15 @@ void Text::plottaHistogramRel()
     int rpt;
 
     // SKRIV UT ANTAL TECKEN
-    cout << '\t' << "Totalt har " << charCount << " tecken lästs in." << endl;
+    cout << '\t' << "Totalt har " << charCount << " tecken lÃ¤sts in." << endl;
     cout << endl;
-    cout << '\t' << "Bokstavsfördelning:" << endl;
+    cout << '\t' << "BokstavsfÃ¶rdelning:" << endl;
     cout << endl;
 
     // LOOPA GENOM ARRAY OCH SKRIV UT BOKSTAV + FREKVENS
     for (int i = 0; i < ANTAL_BOKSTAVER; i++)
     {
-        // RÄKNA ANTAL REPETITIONER
+        // RÃ„KNA ANTAL REPETITIONER
         rpt = (int)( (charFreqRel[i] * 2) + 0.5 );
 
         // SKRIV UT BOKSTAV UPPER CASE
@@ -273,18 +271,18 @@ void Text::plottaHistogramRel()
 }
 
 // =======================================================
-// BERÄKNA HISTOGRAM
+// BERÃ„KNA HISTOGRAM
 void Text::beraknaHistogram()
 {
-    // BERÄKNA ABSOLUT HISTOGRAM
-    // OM ALLT OK, ÄVEN DET RELATIVA
+    // BERÃ„KNA ABSOLUT HISTOGRAM
+    // OM ALLT OK, Ã„VEN DET RELATIVA
     if ( beraknaHistogramAbs() )
     {
         absTillRel();
     }
     else
     {
-        cout << '\t' << "Histogrammet innehåller inga bokstäver..." << endl;
+        cout << '\t' << "Histogrammet innehÃ¥ller inga bokstÃ¤ver..." << endl;
     }
 }
 
@@ -297,12 +295,12 @@ string Text::tolka()
     int bestMatch = 0;
     string probLanguage = "Voynich";
 
-    // LOOPA ANTAL SPRÅK
+    // LOOPA ANTAL SPRÃ…K
     for(int i = 0; i < ANTAL_SPRAK; i++)
     {
         // LOOPA ANTAL TECKEN
         // LAGRA KVADRATSUMMAN AV SKILLNADERNA
-        // FÖR VARJE SPRÅK I EXTERN ARRAY
+        // FÃ–R VARJE SPRÃ…K I EXTERN ARRAY
         for(int j = 0; j < ANTAL_BOKSTAVER; j++)
         {
             refFreq = TOLK_HJALP[i][j];
@@ -311,14 +309,14 @@ string Text::tolka()
             similarities[i] += ((refFreq - curFreq) * (refFreq - curFreq));
         }
 
-        // KOLLA EFTER LÄGSTA KVADRATSUMMA
+        // KOLLA EFTER LÃ„GSTA KVADRATSUMMA
         if (similarities[i] < similarities[bestMatch])
         {
             bestMatch = i;
         }
     }
 
-    // FIXA STRING MED SPRÅKETS NAMN
+    // FIXA STRING MED SPRÃ…KETS NAMN
     switch (bestMatch)
     {
         case (int)Language::english:
@@ -342,10 +340,10 @@ string Text::tolka()
 }
 
 // =======================================================
-// KOM ÅT VÄRDEN I ARRAY LIKHETER
+// KOM Ã…T VÃ„RDEN I ARRAY LIKHETER
 double Text::getSum(int index)
 {
-    // SKICKA VÄRDEN FRÅN ARRAY[INDEX]
+    // SKICKA VÃ„RDEN FRÃ…N ARRAY[INDEX]
     if ( (index >= 0) && (index < ANTAL_SPRAK) )
     {
         return similarities[index];
@@ -363,7 +361,7 @@ double Text::getSum(int index)
 // FUNCTION IMPLEMENTATIONS
 
 // =======================================================
-// FUNKTION HÄMTA NAMN PÅ FIL
+// FUNKTION HÃ„MTA NAMN PÃ… FIL
 string namn_pa_fil()
 {
     // VARIABLER
@@ -377,10 +375,10 @@ string namn_pa_fil()
     cout << endl;
     cout << "  ==============================================================" << endl << endl;
 
-    // KOLLA OM FILTYP ÄR .TXT
+    // KOLLA OM FILTYP Ã„R .TXT
     if ( (filename.rfind(filetype) == string::npos) || (filename.rfind(filetype) < ( filename.length() - 4 ) ) )
     {
-        // LÄGG TILL .TXT
+        // LÃ„GG TILL .TXT
         filename.append(filetype);
     }
 
@@ -389,13 +387,13 @@ string namn_pa_fil()
 }
 
 // =======================================================
-// FUNKTION LÄS IN FIL
+// FUNKTION LÃ„S IN FIL
 string inlasning(string filename)
 {
     // VARIABLER
     string fileText;
 
-    // LÄS IN FIL
+    // LÃ„S IN FIL
     ifstream fin( filename.c_str() );
 
     // KOLLA OM ALLT GICK BRA
@@ -408,7 +406,7 @@ string inlasning(string filename)
     else
     {
         // FILEN FINNS!
-        // LÄS IN FILENS TEXT TECKEN FÖR TECKEN TILL EOB
+        // LÃ„S IN FILENS TEXT TECKEN FÃ–R TECKEN TILL EOB
         char c;
         fin.get(c);
 
@@ -427,14 +425,14 @@ string inlasning(string filename)
 // FUNKTION REDOVISA
 void redovisa(string probLanguage, Text object)
 {
-    // REDOVISA RESULTAT TILL ANVÄNDAREN
-    cout << '\t' << "Följande skillnadskvoter kan konstateras" << endl;
+    // REDOVISA RESULTAT TILL ANVÃ„NDAREN
+    cout << '\t' << "FÃ¶ljande skillnadskvoter kan konstateras" << endl;
     cout << endl;
     cout << '\t' << "Engelska: " << object.getSum((int)Language::english) << endl;
     cout << '\t' << "Franska: " << object.getSum((int)Language::french) << endl;
     cout << '\t' << "Svenska: " << object.getSum((int)Language::swedish) << endl;
     cout << '\t' << "Tyska: " << object.getSum((int)Language::german) << endl;
     cout << endl;
-    cout << '\t' << "Det är troligast att texten är skriven på " << probLanguage << "." << endl;
+    cout << '\t' << "Det Ã¤r troligast att texten Ã¤r skriven pÃ¥ " << probLanguage << "." << endl;
     cout << endl;
 }
