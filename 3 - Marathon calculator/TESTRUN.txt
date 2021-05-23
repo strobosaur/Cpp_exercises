@@ -1,0 +1,895 @@
+=====================================
+=====================================
+Testdata 1, exempel på programkörning
+=====================================
+=====================================
+
+
+     VΣlkommen till l÷ptidskalkylatorn!
+
+ Mata in nummer, starttid och sluttid f÷r
+ loppets deltagare.
+
+ Vinnaren kommer att meddelas nΣr du
+ matar in ett l÷parnummer lΣgre Σn 1.
+
+ ===================================
+
+      * Deltagare nr. 1 *
+
+ Ange l÷parens nummer:
+33
+
+ ===================================
+
+ Ange l÷parens starttid:
+
+Timmar:
+17
+
+Minuter:
+30
+
+Sekunder:
+15
+
+
+ ===================================
+
+ Ange l÷parens sluttid:
+
+Timmar:
+18
+
+Minuter:
+22
+
+Sekunder:
+35
+
+
+ ===================================
+
+     * L÷pare nr. 33 har registrerats! *
+
+ ===================================
+
+ Registrera nΣsta deltagare,
+ eller mata in 0 f÷r sammanstΣllning.
+
+      * Deltagare nr. 2 *
+
+ Ange l÷parens nummer:
+-1
+
+
+ ===================================
+
+ Loppets vinnare Σr l÷pare nummer 33,
+ med den helt ofattbara tiden:
+
+  0 timmar
+  52 minuter
+  20 sekunder
+
+ loppet hade sammanlagt 1 deltagare,
+ men ingen kunde mΣta sig med
+ mΣstaren, nr 33!
+
+ ===================================
+ =          # GAME OVER #          =
+ ===================================
+
+
+
+
+
+Process returned 0 (0x0)   execution time : 224.699 s
+Press any key to continue.
+
+
+
+=====================================
+=====================================
+Testdata 2, exempel på programkörning
+=====================================
+=====================================
+
+
+     VΣlkommen till l÷ptidskalkylatorn!
+
+ Mata in nummer, starttid och sluttid f÷r
+ loppets deltagare.
+
+ Vinnaren kommer att meddelas nΣr du
+ matar in ett l÷parnummer lΣgre Σn 1.
+
+ ===================================
+
+      * Deltagare nr. 1 *
+
+ Ange l÷parens nummer: 33
+
+ ===================================
+
+ Ange l÷parens starttid:
+
+  Timmar: 00
+  Minuter: 30
+  Sekunder: 15
+
+
+ ===================================
+
+ Ange l÷parens sluttid:
+
+  Timmar: 19
+  Minuter: 22
+  Sekunder: 35
+
+
+ ===================================
+
+ * L÷pare nr. 33 har registrerats! *
+
+ ===================================
+
+ Registrera nΣsta deltagare,
+ eller mata in 0 f÷r sammanstΣllning.
+
+      * Deltagare nr. 2 *
+
+ Ange l÷parens nummer: -1
+
+
+ ===================================
+
+ Loppets vinnare Σr l÷pare nummer 33,
+ med den helt ofattbara tiden:
+
+  18 timmar
+  52 minuter
+  20 sekunder
+
+ loppet hade sammanlagt 1 deltagare,
+ men ingen kunde mΣta sig med
+ mΣstaren, nr 33!
+
+ ===================================
+ =          # GAME OVER #          =
+ ===================================
+
+
+
+
+
+Process returned 0 (0x0)   execution time : 34.693 s
+Press any key to continue.
+
+
+=====================================
+=====================================
+Testdata 3, exempel på programkörning
+=====================================
+=====================================
+
+
+
+     VΣlkommen till l÷ptidskalkylatorn!
+
+ Mata in nummer, starttid och sluttid f÷r
+ loppets deltagare.
+
+ Vinnaren kommer att meddelas nΣr du
+ matar in ett l÷parnummer lΣgre Σn 1.
+
+ ===================================
+
+      * Deltagare nr. 1 *
+
+ Ange l÷parens nummer: 33
+
+ ===================================
+
+ Ange l÷parens starttid:
+
+  Timmar: 17
+  Minuter: 30
+  Sekunder: 15
+
+
+ ===================================
+
+ Ange l÷parens sluttid:
+
+  Timmar: 18
+  Minuter: 22
+  Sekunder: 35
+
+
+ ===================================
+
+ * L÷pare nr. 33 har registrerats! *
+
+ ===================================
+
+ Registrera nΣsta deltagare,
+ eller mata in 0 f÷r sammanstΣllning.
+
+      * Deltagare nr. 2 *
+
+ Ange l÷parens nummer: 14
+
+ ===================================
+
+ Ange l÷parens starttid:
+
+  Timmar: 23
+  Minuter: 35
+  Sekunder: 00
+
+
+ ===================================
+
+ Ange l÷parens sluttid:
+
+  Timmar: 0
+  Minuter: 12
+  Sekunder: 24
+
+
+ ===================================
+
+ * L÷pare nr. 14 har registrerats! *
+
+ ===================================
+
+ Registrera nΣsta deltagare,
+ eller mata in 0 f÷r sammanstΣllning.
+
+      * Deltagare nr. 3 *
+
+ Ange l÷parens nummer: 26
+
+ ===================================
+
+ Ange l÷parens starttid:
+
+  Timmar: 10
+  Minuter: 11
+  Sekunder: 12
+
+
+ ===================================
+
+ Ange l÷parens sluttid:
+
+  Timmar: 20
+  Minuter: 21
+  Sekunder: 22
+
+
+ ===================================
+
+ * L÷pare nr. 26 har registrerats! *
+
+ ===================================
+
+ Registrera nΣsta deltagare,
+ eller mata in 0 f÷r sammanstΣllning.
+
+      * Deltagare nr. 4 *
+
+ Ange l÷parens nummer: -1
+
+
+ ===================================
+
+ Loppets vinnare Σr l÷pare nummer 14,
+ med den helt ofattbara tiden:
+
+  0 timmar
+  37 minuter
+  24 sekunder
+
+ loppet hade sammanlagt 3 deltagare,
+ men ingen kunde mΣta sig med
+ mΣstaren, nr 14!
+
+ ===================================
+ =          # GAME OVER #          =
+ ===================================
+
+
+
+
+
+Process returned 0 (0x0)   execution time : 66.271 s
+Press any key to continue.
+
+
+=====================================
+=====================================
+Testdata 4, exempel på programkörning
+=====================================
+=====================================
+
+
+
+     VΣlkommen till l÷ptidskalkylatorn!
+
+ Mata in nummer, starttid och sluttid f÷r
+ loppets deltagare.
+
+ Vinnaren kommer att meddelas nΣr du
+ matar in ett l÷parnummer lΣgre Σn 1.
+
+ ===================================
+
+      * Deltagare nr. 1 *
+
+ Ange l÷parens nummer: 14
+
+ ===================================
+
+ Ange l÷parens starttid:
+
+  Timmar: 23
+  Minuter: 35
+  Sekunder: 00
+
+
+ ===================================
+
+ Ange l÷parens sluttid:
+
+  Timmar: 0
+  Minuter: 12
+  Sekunder: 24
+
+
+ ===================================
+
+ * L÷pare nr. 14 har registrerats! *
+
+ ===================================
+
+ Registrera nΣsta deltagare,
+ eller mata in 0 f÷r sammanstΣllning.
+
+      * Deltagare nr. 2 *
+
+ Ange l÷parens nummer: 26
+
+ ===================================
+
+ Ange l÷parens starttid:
+
+  Timmar: 10
+  Minuter: 11
+  Sekunder: 12
+
+
+ ===================================
+
+ Ange l÷parens sluttid:
+
+  Timmar: 20
+  Minuter: 21
+  Sekunder: 22
+
+
+ ===================================
+
+ * L÷pare nr. 26 har registrerats! *
+
+ ===================================
+
+ Registrera nΣsta deltagare,
+ eller mata in 0 f÷r sammanstΣllning.
+
+      * Deltagare nr. 3 *
+
+ Ange l÷parens nummer: 33
+
+ ===================================
+
+ Ange l÷parens starttid:
+
+  Timmar: 17
+  Minuter: 30
+  Sekunder: 15
+
+
+ ===================================
+
+ Ange l÷parens sluttid:
+
+  Timmar: 18
+  Minuter: 22
+  Sekunder: 35
+
+
+ ===================================
+
+ * L÷pare nr. 33 har registrerats! *
+
+ ===================================
+
+ Registrera nΣsta deltagare,
+ eller mata in 0 f÷r sammanstΣllning.
+
+      * Deltagare nr. 4 *
+
+ Ange l÷parens nummer: -1
+
+
+ ===================================
+
+ Loppets vinnare Σr l÷pare nummer 14,
+ med den helt ofattbara tiden:
+
+  0 timmar
+  37 minuter
+  24 sekunder
+
+ loppet hade sammanlagt 3 deltagare,
+ men ingen kunde mΣta sig med
+ mΣstaren, nr 14!
+
+ ===================================
+ =          # GAME OVER #          =
+ ===================================
+
+
+
+
+
+Process returned 0 (0x0)   execution time : 86.405 s
+Press any key to continue.
+
+
+=====================================
+=====================================
+Testdata 5, exempel på programkörning
+=====================================
+=====================================
+
+
+
+     VΣlkommen till l÷ptidskalkylatorn!
+
+ Mata in nummer, starttid och sluttid f÷r
+ loppets deltagare.
+
+ Vinnaren kommer att meddelas nΣr du
+ matar in ett l÷parnummer lΣgre Σn 1.
+
+ ===================================
+
+      * Deltagare nr. 1 *
+
+ Ange l÷parens nummer: 26
+
+ ===================================
+
+ Ange l÷parens starttid:
+
+  Timmar: 10
+  Minuter: 11
+  Sekunder: 12
+
+
+ ===================================
+
+ Ange l÷parens sluttid:
+
+  Timmar: 20
+  Minuter: 21
+  Sekunder: 22
+
+
+ ===================================
+
+ * L÷pare nr. 26 har registrerats! *
+
+ ===================================
+
+ Registrera nΣsta deltagare,
+ eller mata in 0 f÷r sammanstΣllning.
+
+      * Deltagare nr. 2 *
+
+ Ange l÷parens nummer: 33
+
+ ===================================
+
+ Ange l÷parens starttid:
+
+  Timmar: 17
+  Minuter: 30
+  Sekunder: 15
+
+
+ ===================================
+
+ Ange l÷parens sluttid:
+
+  Timmar: 18
+  Minuter: 22
+  Sekunder: 35
+
+
+ ===================================
+
+ * L÷pare nr. 33 har registrerats! *
+
+ ===================================
+
+ Registrera nΣsta deltagare,
+ eller mata in 0 f÷r sammanstΣllning.
+
+      * Deltagare nr. 3 *
+
+ Ange l÷parens nummer: 14
+
+ ===================================
+
+ Ange l÷parens starttid:
+
+  Timmar: 23
+  Minuter: 35
+  Sekunder: 00
+
+
+ ===================================
+
+ Ange l÷parens sluttid:
+
+  Timmar: 0
+  Minuter: 12
+  Sekunder: 24
+
+
+ ===================================
+
+ * L÷pare nr. 14 har registrerats! *
+
+ ===================================
+
+ Registrera nΣsta deltagare,
+ eller mata in 0 f÷r sammanstΣllning.
+
+      * Deltagare nr. 4 *
+
+ Ange l÷parens nummer: -1
+
+
+ ===================================
+
+ Loppets vinnare Σr l÷pare nummer 14,
+ med den helt ofattbara tiden:
+
+  0 timmar
+  37 minuter
+  24 sekunder
+
+ loppet hade sammanlagt 3 deltagare,
+ men ingen kunde mΣta sig med
+ mΣstaren, nr 14!
+
+ ===================================
+ =          # GAME OVER #          =
+ ===================================
+
+
+
+
+
+Process returned 0 (0x0)   execution time : 77.196 s
+Press any key to continue.
+
+
+
+=====================================
+=====================================
+Testdata 6, exempel på programkörning
+=====================================
+=====================================
+
+
+
+     VΣlkommen till l÷ptidskalkylatorn!
+
+ Mata in nummer, starttid och sluttid f÷r
+ loppets deltagare.
+
+ Vinnaren kommer att meddelas nΣr du
+ matar in ett l÷parnummer lΣgre Σn 1.
+
+ ===================================
+
+      * Deltagare nr. 1 *
+
+ Ange l÷parens nummer: 17
+
+ ===================================
+
+ Ange l÷parens starttid:
+
+  Timmar: 00
+  Minuter: 00
+  Sekunder: 50
+
+
+ ===================================
+
+ Ange l÷parens sluttid:
+
+  Timmar: 00
+  Minuter: 00
+  Sekunder: 30
+
+
+ ===================================
+
+ * L÷pare nr. 17 har registrerats! *
+
+ ===================================
+
+ Registrera nΣsta deltagare,
+ eller mata in 0 f÷r sammanstΣllning.
+
+      * Deltagare nr. 2 *
+
+ Ange l÷parens nummer: -1
+
+
+ ===================================
+
+ Loppets vinnare Σr l÷pare nummer 17,
+ med den helt ofattbara tiden:
+
+  23 timmar
+  59 minuter
+  40 sekunder
+
+ loppet hade sammanlagt 1 deltagare,
+ men ingen kunde mΣta sig med
+ mΣstaren, nr 17!
+
+ ===================================
+ =          # GAME OVER #          =
+ ===================================
+
+
+
+
+
+Process returned 0 (0x0)   execution time : 41.362 s
+Press any key to continue.
+
+
+
+=====================================
+=====================================
+Testdata 7, exempel på programkörning
+=====================================
+=====================================
+
+
+
+     VΣlkommen till l÷ptidskalkylatorn!
+
+ Mata in nummer, starttid och sluttid f÷r
+ loppets deltagare.
+
+ Vinnaren kommer att meddelas nΣr du
+ matar in ett l÷parnummer lΣgre Σn 1.
+
+ ===================================
+
+      * Deltagare nr. 1 *
+
+ Ange l÷parens nummer: -1
+
+
+ ===================================
+ Nσgot mσste gσtt fel, f÷rs÷k igen!
+ ===================================
+
+
+
+Process returned 0 (0x0)   execution time : 27.675 s
+Press any key to continue.
+
+
+
+=====================================
+=====================================
+Testdata 8, exempel på programkörning
+=====================================
+=====================================
+
+
+
+     VΣlkommen till l÷ptidskalkylatorn!
+
+ Mata in nummer, starttid och sluttid f÷r
+ loppets deltagare.
+
+ Vinnaren kommer att meddelas nΣr du
+ matar in ett l÷parnummer lΣgre Σn 1.
+
+ ===================================
+
+      * Deltagare nr. 1 *
+
+ Ange l÷parens nummer: 15
+
+ ===================================
+
+ Ange l÷parens starttid:
+
+  Timmar: 10
+  Minuter: 00
+  Sekunder: 00
+
+
+ ===================================
+
+ Ange l÷parens sluttid:
+
+  Timmar: 11
+  Minuter: 00
+  Sekunder: 00
+
+
+ ===================================
+
+ * L÷pare nr. 15 har registrerats! *
+
+ ===================================
+
+ Registrera nΣsta deltagare,
+ eller mata in 0 f÷r sammanstΣllning.
+
+      * Deltagare nr. 2 *
+
+ Ange l÷parens nummer: 12
+
+ ===================================
+
+ Ange l÷parens starttid:
+
+  Timmar: 11
+  Minuter: 00
+  Sekunder: 00
+
+
+ ===================================
+
+ Ange l÷parens sluttid:
+
+  Timmar: 10
+  Minuter: 00
+  Sekunder: 00
+
+
+ ===================================
+
+ * L÷pare nr. 12 har registrerats! *
+
+ ===================================
+
+ Registrera nΣsta deltagare,
+ eller mata in 0 f÷r sammanstΣllning.
+
+      * Deltagare nr. 3 *
+
+ Ange l÷parens nummer: -1
+
+
+ ===================================
+
+ Loppets vinnare Σr l÷pare nummer 15,
+ med den helt ofattbara tiden:
+
+  1 timmar
+  0 minuter
+  0 sekunder
+
+ loppet hade sammanlagt 2 deltagare,
+ men ingen kunde mΣta sig med
+ mΣstaren, nr 15!
+
+ ===================================
+ =          # GAME OVER #          =
+ ===================================
+
+
+
+
+
+Process returned 0 (0x0)   execution time : 48.663 s
+Press any key to continue.
+
+
+
+=====================================
+=====================================
+Testdata 9, exempel på programkörning
+=====================================
+=====================================
+
+
+
+     VΣlkommen till l÷ptidskalkylatorn!
+
+ Mata in nummer, starttid och sluttid f÷r
+ loppets deltagare.
+
+ Vinnaren kommer att meddelas nΣr du
+ matar in ett l÷parnummer lΣgre Σn 1.
+
+ ===================================
+
+      * Deltagare nr. 1 *
+
+ Ange l÷parens nummer: 8
+
+ ===================================
+
+ Ange l÷parens starttid:
+
+  Timmar: 00
+  Minuter: 00
+  Sekunder: 10
+
+
+ ===================================
+
+ Ange l÷parens sluttid:
+
+  Timmar: 00
+  Minuter: 00
+  Sekunder: 20
+
+
+ ===================================
+
+ * L÷pare nr. 8 har registrerats! *
+
+ ===================================
+
+ Registrera nΣsta deltagare,
+ eller mata in 0 f÷r sammanstΣllning.
+
+      * Deltagare nr. 2 *
+
+ Ange l÷parens nummer: -1
+
+
+ ===================================
+
+ Loppets vinnare Σr l÷pare nummer 8,
+ med den helt ofattbara tiden:
+
+  0 timmar
+  0 minuter
+  10 sekunder
+
+ loppet hade sammanlagt 1 deltagare,
+ men ingen kunde mΣta sig med
+ mΣstaren, nr 8!
+
+ ===================================
+ =          # GAME OVER #          =
+ ===================================
+
+
+
+
+
+Process returned 0 (0x0)   execution time : 29.637 s
+Press any key to continue.
