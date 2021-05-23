@@ -1,0 +1,436 @@
+/*
+// ==================================================
+// ==================================================
+// === TESTDATA 1 ===================================
+// ==================================================
+// ==================================================
+
+
+  Det här programmet utför beräkningar med två
+  av dig valda tal. När du skrivit in talen
+  kommer du få välja en av tre operationer:
+
+   a = addition
+   m = multiplikation
+   k = kvadratsummering
+
+  Programmet kommer därefter att ordna dina tal
+  i storleksordning och utföra den valda operationen
+  på det minsta angivna talet, samt på varje efterföljande
+  heltal upp till och med det största av de angivna talen.
+
+   a adderar med nästkommande tal, m multiplicerar med
+   nästkommande tal, och k lägger samman kvadraten av
+   det mindre talet med kvadraten av nästkommande tal, osv
+
+  =========================================================
+
+  Skriv in ett heltal: 3
+
+  =========================================================
+
+  Skriv in ett heltal: 5
+
+  =========================================================
+
+  Välj en av följande operationer:
+
+   (a)ddition
+   (m)ultiplikation
+   (k)vadratsummering
+
+  Operation: a
+
+
+  =========================================================
+
+  Slutresultat: 12
+
+
+
+Process returned 0 (0x0)   execution time : 10.181 s
+Press any key to continue.
+
+
+// ==================================================
+// ==================================================
+// === TESTDATA 2 ===================================
+// ==================================================
+// ==================================================
+
+
+
+  Det här programmet utför beräkningar med två
+  av dig valda tal. När du skrivit in talen
+  kommer du få välja en av tre operationer:
+
+   a = addition
+   m = multiplikation
+   k = kvadratsummering
+
+  Programmet kommer därefter att ordna dina tal
+  i storleksordning och utföra den valda operationen
+  på det minsta angivna talet, samt på varje efterföljande
+  heltal upp till och med det största av de angivna talen.
+
+   a adderar med nästkommande tal, m multiplicerar med
+   nästkommande tal, och k lägger samman kvadraten av
+   det mindre talet med kvadraten av nästkommande tal, osv
+
+  =========================================================
+
+  Skriv in ett heltal: 3
+
+  =========================================================
+
+  Skriv in ett heltal: 5
+
+  =========================================================
+
+  Välj en av följande operationer:
+
+   (a)ddition
+   (m)ultiplikation
+   (k)vadratsummering
+
+  Operation: m
+
+
+  =========================================================
+
+  Slutresultat: 60
+
+
+
+Process returned 0 (0x0)   execution time : 21.441 s
+Press any key to continue.
+
+
+// ==================================================
+// ==================================================
+// === TESTDATA 3 ===================================
+// ==================================================
+// ==================================================
+
+
+
+
+  Det här programmet utför beräkningar med två
+  av dig valda tal. När du skrivit in talen
+  kommer du få välja en av tre operationer:
+
+   a = addition
+   m = multiplikation
+   k = kvadratsummering
+
+  Programmet kommer därefter att ordna dina tal
+  i storleksordning och utföra den valda operationen
+  på det minsta angivna talet, samt på varje efterföljande
+  heltal upp till och med det största av de angivna talen.
+
+   a adderar med nästkommande tal, m multiplicerar med
+   nästkommande tal, och k lägger samman kvadraten av
+   det mindre talet med kvadraten av nästkommande tal, osv
+
+  =========================================================
+
+  Skriv in ett heltal: 3
+
+  =========================================================
+
+  Skriv in ett heltal: 5
+
+  =========================================================
+
+  Välj en av följande operationer:
+
+   (a)ddition
+   (m)ultiplikation
+   (k)vadratsummering
+
+  Operation: k
+
+
+  =========================================================
+
+  Slutresultat: 50
+
+
+
+Process returned 0 (0x0)   execution time : 7.570 s
+Press any key to continue.
+
+
+// ==================================================
+// ==================================================
+// === TESTDATA 4 ===================================
+// ==================================================
+// ==================================================
+
+
+
+
+  Det här programmet utför beräkningar med två
+  av dig valda tal. När du skrivit in talen
+  kommer du få välja en av tre operationer:
+
+   a = addition
+   m = multiplikation
+   k = kvadratsummering
+
+  Programmet kommer därefter att ordna dina tal
+  i storleksordning och utföra den valda operationen
+  på det minsta angivna talet, samt på varje efterföljande
+  heltal upp till och med det största av de angivna talen.
+
+   a adderar med nästkommande tal, m multiplicerar med
+   nästkommande tal, och k lägger samman kvadraten av
+   det mindre talet med kvadraten av nästkommande tal, osv
+
+  =========================================================
+
+  Skriv in ett heltal: -3
+
+  =========================================================
+
+  Skriv in ett heltal: 5
+
+  =========================================================
+
+  Välj en av följande operationer:
+
+   (a)ddition
+   (m)ultiplikation
+   (k)vadratsummering
+
+  Operation: m
+
+
+  =========================================================
+
+  Slutresultat: 0
+
+
+
+Process returned 0 (0x0)   execution time : 5.989 s
+Press any key to continue.
+
+
+// ==================================================
+// ==================================================
+// === TESTDATA 5 ===================================
+// ==================================================
+// ==================================================
+
+
+
+
+  Det här programmet utför beräkningar med två
+  av dig valda tal. När du skrivit in talen
+  kommer du få välja en av tre operationer:
+
+   a = addition
+   m = multiplikation
+   k = kvadratsummering
+
+  Programmet kommer därefter att ordna dina tal
+  i storleksordning och utföra den valda operationen
+  på det minsta angivna talet, samt på varje efterföljande
+  heltal upp till och med det största av de angivna talen.
+
+   a adderar med nästkommande tal, m multiplicerar med
+   nästkommande tal, och k lägger samman kvadraten av
+   det mindre talet med kvadraten av nästkommande tal, osv
+
+  =========================================================
+
+  Skriv in ett heltal: 5
+
+  =========================================================
+
+  Skriv in ett heltal: 3
+
+  =========================================================
+
+  Välj en av följande operationer:
+
+   (a)ddition
+   (m)ultiplikation
+   (k)vadratsummering
+
+  Operation: a
+
+
+  =========================================================
+
+  Slutresultat: 12
+
+
+
+Process returned 0 (0x0)   execution time : 7.376 s
+Press any key to continue.
+
+
+// ==================================================
+// ==================================================
+// === TESTDATA 6 ===================================
+// ==================================================
+// ==================================================
+
+
+
+
+  Det här programmet utför beräkningar med två
+  av dig valda tal. När du skrivit in talen
+  kommer du få välja en av tre operationer:
+
+   a = addition
+   m = multiplikation
+   k = kvadratsummering
+
+  Programmet kommer därefter att ordna dina tal
+  i storleksordning och utföra den valda operationen
+  på det minsta angivna talet, samt på varje efterföljande
+  heltal upp till och med det största av de angivna talen.
+
+   a adderar med nästkommande tal, m multiplicerar med
+   nästkommande tal, och k lägger samman kvadraten av
+   det mindre talet med kvadraten av nästkommande tal, osv
+
+  =========================================================
+
+  Skriv in ett heltal: -3
+
+  =========================================================
+
+  Skriv in ett heltal: -5
+
+  =========================================================
+
+  Välj en av följande operationer:
+
+   (a)ddition
+   (m)ultiplikation
+   (k)vadratsummering
+
+  Operation: a
+
+
+  =========================================================
+
+  Slutresultat: -12
+
+
+
+Process returned 0 (0x0)   execution time : 13.333 s
+Press any key to continue.
+
+
+// ==================================================
+// ==================================================
+// === TESTDATA 7 ===================================
+// ==================================================
+// ==================================================
+
+
+
+
+  Det här programmet utför beräkningar med två
+  av dig valda tal. När du skrivit in talen
+  kommer du få välja en av tre operationer:
+
+   a = addition
+   m = multiplikation
+   k = kvadratsummering
+
+  Programmet kommer därefter att ordna dina tal
+  i storleksordning och utföra den valda operationen
+  på det minsta angivna talet, samt på varje efterföljande
+  heltal upp till och med det största av de angivna talen.
+
+   a adderar med nästkommande tal, m multiplicerar med
+   nästkommande tal, och k lägger samman kvadraten av
+   det mindre talet med kvadraten av nästkommande tal, osv
+
+  =========================================================
+
+  Skriv in ett heltal: 1
+
+  =========================================================
+
+  Skriv in ett heltal: 100
+
+  =========================================================
+
+  Välj en av följande operationer:
+
+   (a)ddition
+   (m)ultiplikation
+   (k)vadratsummering
+
+  Operation: k
+
+
+  =========================================================
+
+  Slutresultat: 338350
+
+
+
+Process returned 0 (0x0)   execution time : 5.826 s
+Press any key to continue.
+
+
+// ==================================================
+// ==================================================
+// === TESTDATA 8 ===================================
+// ==================================================
+// ==================================================
+
+
+
+
+  Det här programmet utför beräkningar med två
+  av dig valda tal. När du skrivit in talen
+  kommer du få välja en av tre operationer:
+
+   a = addition
+   m = multiplikation
+   k = kvadratsummering
+
+  Programmet kommer därefter att ordna dina tal
+  i storleksordning och utföra den valda operationen
+  på det minsta angivna talet, samt på varje efterföljande
+  heltal upp till och med det största av de angivna talen.
+
+   a adderar med nästkommande tal, m multiplicerar med
+   nästkommande tal, och k lägger samman kvadraten av
+   det mindre talet med kvadraten av nästkommande tal, osv
+
+  =========================================================
+
+  Skriv in ett heltal: 1
+
+  =========================================================
+
+  Skriv in ett heltal: 1000
+
+  =========================================================
+
+  Välj en av följande operationer:
+
+   (a)ddition
+   (m)ultiplikation
+   (k)vadratsummering
+
+  Operation: m
+
+
+  =========================================================
+
+  Slutresultat: 0
+
+
+
+Process returned 0 (0x0)   execution time : 5.400 s
+Press any key to continue.
